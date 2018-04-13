@@ -134,9 +134,9 @@ void MainWindow::serchFile()
         }
 }
 
-//void MainWindow::on_musicList_itemDoubleClicked(QListWidgetItem *item)
-//{
-//    audioFilename_ = item->text();  //audioFilenameとitemの形式をあわせる
-//    ui->filePathLineEdit->setText(audioFilename_);
-//    player_->setMedia(QUrl::fromLocalFile(audioFilename_));
-//}
+void MainWindow::on_musicList_itemDoubleClicked(QListWidgetItem *item)
+{
+    audioFilename_ = item->text();  //audioFilenameとitemの形式をあわせる
+    ui->filePathLineEdit->setText(audioFilename_);
+    player_->setMedia(QUrl::fromLocalFile(audioFilename_));
+}

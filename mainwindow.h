@@ -36,7 +36,7 @@ private slots:
 
     void serchFile();
 
-    //void on_musicList_itemDoubleClicked(QListWidgetItem *item);
+    void on_musicList_itemDoubleClicked(QListWidgetItem *item);
 
 private:
     Ui::MainWindow *ui;
