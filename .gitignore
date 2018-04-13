@@ -1,0 +1,28 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile*
+*-build-*
+debug/
+release/
+
+vc110.pdb
+MediaPlayer.app/
+ui_*.h
+ui_*.cpp
+.DS_Store
