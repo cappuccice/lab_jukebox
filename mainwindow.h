@@ -34,10 +34,7 @@ private slots:
     void updateTimeElapsedSlider(qint64 percent);
     void setDuration(qint64 duration);
 
-    void addListItem();
     void serchFile();
-
-
 
     //void on_musicList_itemDoubleClicked(QListWidgetItem *item);
 
@@ -48,7 +45,6 @@ private:
     QStringList playlist;//ファイル名のリスト。表示に使用する。
     QListWidget* musicList;
     QLineEdit* filePathLineEdit;
-    QBoxLayout* box;
 
 };
 
